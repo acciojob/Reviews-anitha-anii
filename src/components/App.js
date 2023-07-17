@@ -70,7 +70,7 @@ const App = () => {
       <div className="person-img">
         <img src={image} alt={name} />
       </div>
-      <h4 className="name" id={`author-id-${currentIndex + 1}`}>
+      <h4 className=".author" id={`author-${currentIndex + 1}`}>
         {name}
       </h4>
       <p className="job">{job}</p>
@@ -83,7 +83,7 @@ const App = () => {
           Next
         </button>
         <button className="random-btn" onClick={showRandomReview}>
-          Surprise Me
+        surprise me
         </button>
       </div>
     </div>
